@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <script
+      src="https://kit.fontawesome.com/20f0338007.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      main {
+        display: flex;
+        float: left;
+        gap: 4rem;
+      }
+      header {
+        background-color: #fcfcfc;
+        color: rgb(78, 150, 221);
+        text-align: left;
+        padding: 10px;
+      }
+      .fa-regular {
+        font-size: 80px;
+        margin-bottom: 0;
+      }
+
+      nav {
+        width: 20%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: rgb(66, 109, 153);
+        padding: 10px;
+        font-weight: 500;
+      }
+
+      form {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"] {
+        width: 60%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        font-size: 14px;
+      }
+
+      input[type="submit"] {
+        width: 20%;
+        background-color: #ffffff;
+        color: rgb(19, 14, 14);
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 1rem;
+      }
+      #media {
+        background-color: #ffffff;
+        color: black;
+      }
+      body {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .asterisk {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <i class="fa-regular fa-newspaper"></i>
+    </header>
+    <main>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Registration</a>
+        <a href="#">Login</a>
+        <a href="#">Add news</a>
+        <a href="#">Manage news</a>
+        <a href="#">E-magazine archives</a>
+        <a href="#">Hot issue</a>
+      </nav>
+      <form>
+        <h3 style="font-weight: 600">News Post</h3>
+        <label for="title">Title<i class="asterisk">*</i></label>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="E-Magazine Visit to Kampus"
+        />
+        <label for="content"
+          >IT information to be published<i class="asterisk">*</i><br />(please
+          limit to 3-4 paragraphs)</label
+        >
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="Information technology students and staff"
+        />
+
+        <h4>Included Media</h4>
+        <p>
+          Please upload any media you would like to include such as image or
+          video
+        </p>
+        <input type="file" id="media" name="media" />
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
