@@ -1,75 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: -webkit-fill-available;
+}
 body {
-    background-color: #2fd397;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  background-color: #2fd397;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  min-height: 100vh;
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nws-boxlogin {
-    margin:auto;
-    width: 400px;
-    background-color: #ffffff;
-    padding:40px;
-    border-radius: 20px;
-    box-sizing: border-box;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
 }
 .logo {
-    margin:auto;
-    width:120px;
+  margin: auto;
+  width: 120px;
 }
 .logo img {
-    width:100%;
-    margin:auto;
+  width: 100%;
+  margin: auto;
 }
 .welcome-title {
-    text-align: center;
-    margin-top:20px;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom:40px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 .nws-formlogin {
-    
 }
 .row-input {
-    margin-bottom:20px;
+  margin-bottom: 20px;
 }
 .form-label {
-
 }
 .form-input {
-    
 }
 .form-input input {
-    width:100%;
-    border-bottom:2px solid #cccccc;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding:10px;
-    box-sizing: border-box;
+  width: 100%;
+  border-bottom: 2px solid #cccccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
 }
-.form-input input:active, .form-input input:hover {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom:2px solid #30d29c;
+.form-input input:active,
+.form-input input:hover {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #30d29c;
 }
 .form-link {
-    text-align: right;
-    margin-top:20px;
+  text-align: right;
+  margin-top: 20px;
 }
 .form-link a {
-    color: #acacac;
-    text-decoration: none;
+  color: #acacac;
+  text-decoration: none;
 }
 .row-submit {
-    
 }
 .row-submit button {
-    width: 100%;
-    padding:10px;
-    background-color: #38cd9c;
-    border: none;
-    border-radius: 40px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  background-color: #38cd9c;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
 }
